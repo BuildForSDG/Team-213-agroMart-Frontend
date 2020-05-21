@@ -1,3 +1,5 @@
+//  Begining of default test code
+
 import app from '../src/index';
 
 describe('app module', () => {
