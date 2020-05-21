@@ -1,14 +1,16 @@
 barebones setup for JavaScript / Node projects replace this with a one-liner phrase describing this project or app
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/3c5eed8757624c739dfbb2c68f671616)](https://app.codacy.com/gh/BuildForSDG/Team-213-agroMart-Frontend?utm_source=github.com&utm_medium=referral&utm_content=BuildForSDG/Team-213-agroMart-Frontend&utm_campaign=Badge_Grade_Settings)
-[![Codacy Badge](https://img.shields.io/badge/Code%20Quality-D-red)](https://img.shields.io/badge/Code%20Quality-D-red)
+
 
 
 ## About
 
-What is this project about. Ok to enrich here or the section above it with an image. 
+What is this project about:
 
-Once this repo has been setup on Codacy by the TTL, replace the above badge with the actual one from the Codacy dashboard, and add the code coverage badge as well. This is mandatory
+agroMark is a web app that seeks to help small scale farmers increase production by using technology to give them access to bigger market.
+
+The application will allow smallholder farmers to market their produce online. Consumers(ie individuals, groups, institution) can view and buy the produce.
 
 This is a simple JavaScript starter repo template for setting up your project. The setup contains
 
@@ -18,10 +20,18 @@ This is a simple JavaScript starter repo template for setting up your project. T
 
 ## Why
 
-Talk about what problem this solves, what SDG(s) and SGD targets it addresses and why these are imoirtant
+Talk about what problem this solves, what SDG(s) and SGD targets it addresses and why these are imoirtant:
+
+To help small scale farmers in our community incraese food production to contribute to achieving SDG Goal 2 (zero hunger0 by 2030.
 
 ## Usage
- How would someone use what you have built, include URLs to the deployed app, service e.t.c when you have it setup
+ How would someone use what you have built, include URLs to the deployed app, service e.t.c when you have it setup;
+ 
+
+Farmer can signup to sell thier produce. Consumers can also place orders for foods stuff on the platform. Normal uses can access the app for general information without necessary logging in.
+
+staging site wil be available soon..
+ 
 
 
 ## Setup
@@ -47,7 +57,18 @@ This starter uses [Parcel](https://parceljs.org/getting_started.html) as the bun
 
 ## Authors
 
-List the team behind this project. Their names linked to their Github, LinkedIn, or Twitter accounts should siffice. Ok to signify the role they play in the project, including the TTL and mentor
+List the team behind this project. Their names linked to their Github, LinkedIn, or Twitter accounts should siffice. Ok to signify the role they play in the project, including the TTL and mentor:
+
+Team Members:
+
+Bernice Owusu
+Shadrack Inusah
+Derrick Keteku
+Edem
+Apetsi Kojo Ampiah
+Obah Lateo Fredrick
+Sintim-Misah Duah G.(TTL) , github.com/sintimmisa , twitter.com/sintimmisa
+Tiku (Mentor)
 
 ## Contributing
 If this project sounds interesting to you and you'd like to contribute, thank you!
