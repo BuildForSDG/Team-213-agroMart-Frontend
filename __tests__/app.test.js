@@ -1,3 +1,20 @@
+/**
+ * @jest-environment jsdom
+ */
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from '../src/app';
+
+it('renders without crashing', () => {
+  const div = document.createElement('div');
+  ReactDOM.render(<App />, div);
+});
+
+
+
+// default code 
+/*
 import app from '../src/index';
 
 describe('app module', () => {
@@ -11,3 +28,4 @@ describe('app module', () => {
     expect(sdgPos).toBeGreaterThanOrEqual(0);
   });
 });
+*/
