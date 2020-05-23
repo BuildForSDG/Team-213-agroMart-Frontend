@@ -1,4 +1,4 @@
-//Default Code
+//  Default Code
 /*
 const app = async () => '#BuildforSDG';
 
@@ -6,7 +6,7 @@ export default app;
 */
 
 
-//Update with reactjs
+//  Update with reactjs
 import React from 'react';
 
 const App = () => (

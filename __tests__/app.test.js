@@ -12,8 +12,7 @@ it('renders without crashing', () => {
 });
 
 
-
-// default code 
+// default code
 /*
 import app from '../src/index';
 
