@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 //  Default Code
 /*
 const app = async () => '#BuildforSDG';
