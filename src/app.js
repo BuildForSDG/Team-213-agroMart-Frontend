@@ -19,6 +19,7 @@ import About from './Components/About/Index';
 import Help from './Components/Help/index';
 import Login from './Components/Login/index';
 import Sell from './Components/Sell/index';
+import Navbar from './Components/Navbar/index';
 
 
 //  *Routing of pages* //
@@ -26,6 +27,7 @@ const App = () => {
   return (
     <Router>
       <div className="App">
+        <Navbar/>
         <Route exact path="/">
           <Home />
         </Route>
