@@ -23,8 +23,10 @@
     "test:watch": "jest --watch",
     "test:cover": "jest --coverage",
     "lint": "eslint \"src/**/*.js\"",
-    "start": "parcel ./public/index.html  --port 3030 --open"
+    "start": "parcel ./public/index.html  --port 3030 --open",
+    "build":"parcel build ./public/index.html --detailed-report"
   },
+
   "author": {
     "name": "Team-213 Build For SDG",
     "email": "buildforsdg@andela.com"
