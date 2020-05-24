@@ -20,8 +20,6 @@ import Help from './Components/Help/index';
 import Login from './Components/Login/index';
 import Sell from './Components/Sell/index';
 
-//  Styles sheets
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 //  *Routing of pages* //
 const App = () => {
