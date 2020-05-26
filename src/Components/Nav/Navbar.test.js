@@ -1,3 +1,4 @@
+/*
 //  Make sure to import react
 import React from 'react';
 //  When initiating a snapshot make sure to import the needed components.
@@ -13,3 +14,4 @@ test('Check if Navbar is correct!', () => {
   const tree = component.toJSON();
   expect(tree).toMatchSnapshot();
 });
+*/

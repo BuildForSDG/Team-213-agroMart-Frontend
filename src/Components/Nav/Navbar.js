@@ -2,13 +2,15 @@ import React from 'react';
 import Burger from './Burger';
 import Nav from './StyleNav';
 
-const Navbar = () => (
+const Navbar = () => {
+  return (
         <Nav>
             <div className="logo">
-                Nav Bar
-            </div>
+                agroMart App
+      </div>
             <Burger />
         </Nav>
-);
+  );
+};
 
 export default Navbar;

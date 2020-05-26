@@ -3,12 +3,12 @@ import Ul from './StyleRightNav';
 
 // eslint-disable-next-line react/prop-types
 const RightNav = ({ open }) => (
-        <Ul open={open}>
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Contact Us</li>
-            <li>Sign In</li>
-            <li>Sign Up</li>
+    <Ul open={open}>
+            <li><a href='/'>Market</a></li>
+            <li><a href='/about'>About Us</a></li>
+            <li><a href='/help'>Help</a></li>
+            <li><a href='/sell'>Sell</a></li>
+            <li><a href='/login'>Login</a></li>
         </Ul>
 );
 
