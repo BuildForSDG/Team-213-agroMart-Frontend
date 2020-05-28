@@ -24,13 +24,19 @@ import NoMatch from './Components/NoMatch';
 //  Components
 //  import NavigationBar from './Components/Navbar/index';
 import Nav from './Components/Nav/Navbar';
+import Footer from './Components/Footer/index';
+import HeroImg from './Components/HeroImg/HeroImg';
+
+// App general styles
+
 
 //  *Routing of pages* //
 const App = () => {
   return (
     <React.Fragment>
       <Router>
-        <Nav/>
+        <Nav />
+        <HeroImg />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
@@ -39,6 +45,7 @@ const App = () => {
           <Route path="/login" component={Login} />
           <Route component={NoMatch} />
         </Switch>
+        <Footer/>
       </Router>
     </React.Fragment>
   );

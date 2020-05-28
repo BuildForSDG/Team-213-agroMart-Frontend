@@ -9,7 +9,7 @@ const RightNav = ({ open }) => (
             <li><a href='/help'>Help</a></li>
             <li><a href='/sell'>Sell</a></li>
             <li><a href='/login'>Login</a></li>
-        </Ul>
+</Ul>
 );
 
 export default RightNav;

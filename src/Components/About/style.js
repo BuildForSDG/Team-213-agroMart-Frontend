@@ -9,5 +9,6 @@ const GridWrapper = styled.div`
   margin-right: 6em;
   grid-template-columns: repeat(12, 1fr);
   grid-auto-rows: minmax(25px, auto);
+  
 `;
 export default GridWrapper;

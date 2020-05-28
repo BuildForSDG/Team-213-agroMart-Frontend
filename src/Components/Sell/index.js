@@ -2,7 +2,9 @@
 import React from 'react';
 
 const Sell = () => {
-  return <div>This is where farmer will post thier produce for sale </div>;
+  return <div>
+    <h1>Sell Page</h1>
+    <p>This is where farmer will post thier produce for sale</p> </div>;
 };
 
 export default Sell;
