@@ -1,5 +1,6 @@
-import app from './app';
+// Begining of default code
 
+/*  import app from './app';
 const startApp = async () => {
   const header = document.querySelector('[data-app-name]');
   if (!header) return;
@@ -9,3 +10,18 @@ const startApp = async () => {
 };
 
 document.addEventListener('DOMContentLoaded', startApp);
+  */
+
+//  end of default code
+
+//  Updated code with ReactJS
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './app';
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);

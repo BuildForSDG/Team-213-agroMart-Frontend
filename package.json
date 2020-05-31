@@ -1,11 +1,17 @@
 {
-  "name": "js-starter",
-  "version": "0.0.1",
-  "description": "A boilerplate for starting js code",
+  "name": "agromart-app",
+  "version": "0.1.0",
+  "description": "agroMart App frontend ",
   "keywords": [
-    "js-starter",
-    "boilerplate"
+    "agroMart",
+    "agroMart-client"
   ],
+  "jest": {
+    "verbose": true,
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  },
   "private": false,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -17,31 +23,44 @@
     "test:watch": "jest --watch",
     "test:cover": "jest --coverage",
     "lint": "eslint \"src/**/*.js\"",
-    "start": "parcel ./src/index.html"
+    "start": "parcel ./public/index.html  --port 3030 --open",
+    "build":"parcel build ./public/index.html --detailed-report"
   },
+
   "author": {
-    "name": "Build For SDG",
+    "name": "Team-213 Build For SDG",
     "email": "buildforsdg@andela.com"
   },
-  "homepage": "https://github.com/BuildForSDG/js-starter#readme",
+  "homepage": "https://github.com/BuildForSDG/Team-213-agroMart-Frontend#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/BuildForSDG/js-starter.git"
+    "url": "https://github.com/BuildForSDG/Team-213-agroMart-Frontend"
   },
   "bugs": {
-    "url": "https://github.com/BuildForSDG/js-starter/issues"
+    "url": "https://github.com/BuildForSDG/Team-213-agroMart-Frontend/issues"
   },
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
   "devDependencies": {
     "@babel/core": "^7.9.0",
-    "@babel/preset-env": "^7.9.5",
-    "babel-jest": "^25.4.0",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.0.1",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.20.2",
-    "jest": "^25.4.0",
-    "parcel-bundler": "^1.12.4"
+    "eslint-plugin-react": "^7.19.0",
+    "jest": "^26.0.1",
+    "node-sass": "^4.14.1",
+    "parcel-bundler": "^1.12.4",
+    "react-test-renderer": "^16.13.1"
   },
   "browserslist": [
     "last 1 Chrome versions"
