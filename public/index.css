@@ -1,0 +1,16 @@
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  :root{
+    --primaryColor:#008700;
+    --lightGreen:#9bbc3b;
+    --lighterGreen:#008700d0;
+    --secondColor: orange;
+    --lighterOrange:rgba(255, 166, 0, 0.829);
+    --white:#fff;
+    --grey:#000009;
+}
+
+  
