@@ -1,13 +1,15 @@
 /* eslint-disable arrow-body-style */
 import React from 'react';
-//    import GridWrapper from './style';
-
+import GridWrapper from './style';
+import Aside from './Aside';
+import AdsList from './AdsList';
 
 const Home = () => {
   return (
-    <div>
-      <h1>Home page</h1>
-    </div>
+    <GridWrapper>
+      <Aside />
+      <AdsList></AdsList>
+    </GridWrapper>
   );
 };
 
