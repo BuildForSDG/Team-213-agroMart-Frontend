@@ -1,8 +1,9 @@
 import React from "react";
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 
-import HomePage from  './HomePage';
-import ProductPage from './ProductPage';
+import HomePage from  './Components/HomePage';
+import ProductPage from './Components/ProductPage';
+
 
 function App() {
   return (
@@ -32,9 +33,9 @@ function App() {
                 Login
               </a>
             </nav>
-            <button onclick="openMenu()" className="humberger">
-              {" "}
-              &#9776;{" "}
+            <button  className="humberger">
+             
+              &#9776;
             </button>
           </nav>
         </header>

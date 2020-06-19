@@ -1,27 +1,32 @@
 import React, { useState, useEffect } from "react";
 //import data from './data';
 import { Link } from "react-router-dom";
-import axios from "axios";
+//import axios from "axios";
+import { useSelector, useDispatch } from "react-redux";
+import listProducts from "../Actions/productActions";
 
-const HomePage = () => {
+const HomePage = (props) => {
   {
     /*Create hooks to fetch data from server */
   }
-  const [products, setProduct] = useState([]);
-
+  //const [products, setProduct] = useState([]);
+  const productList = useSelector(state => state.productList);
+  const { products, loading, error } = productList;
+  const dispatch = useDispatch();
   useEffect(() => {
-    const fetchData = async () => {
+    dispatch(listProducts());
+    /*const fetchData = async () => {
       const { data } = await axios.get("/api/products");
       setProduct(data);
     };
-    fetchData();
+    fetchData();*/
     return () => {
       //
     };
   }, []);
 
-  return (
-    <ul className="content row products">
+  return loading ? <div>Loading...</div> :
+    error ? <div>{error}</div> :<ul className="content row products">
       {/*Fetch Data  from ./data in react: to be change later*/}
       {products.map((product) => (
         <li className="col-12 col-md-6 col-lg-4" key={product._id}>
@@ -48,6 +53,6 @@ const HomePage = () => {
         </li>
       ))}
     </ul>
-  );
+  
 };
 export default HomePage;
