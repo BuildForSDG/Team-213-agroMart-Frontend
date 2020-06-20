@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Link } from 'react-router-dom';
 
 import HomePage from  './Components/HomePage';
 import ProductPage from './Components/ProductPage';
+import CartPage from './Components/CartPage';
 
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
         <main className="main container ">
           <Route path="/" exact={true} component={HomePage} />
           <Route path="/product/:id" component={ProductPage} />
+          <Route path ="/cart/:id?" component={CartPage}/>
         </main>
 
         <footer className="footer">
